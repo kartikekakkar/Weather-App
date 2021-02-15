@@ -1,0 +1,68 @@
+body{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    h1,h2,h3,h4,p{
+        text-align: center;
+        color: #fff;
+    }
+    .area{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 90px;
+
+   }
+   .location{
+       color: #fff;
+       text-align: center;
+   }
+   .temp{
+       text-align: center;
+       color: #fff;
+   }
+   .main{
+       padding-top: 20px;
+       margin-top: 10px;
+       background-color: cadetblue;
+       border-radius: 20px;
+       width: 260px;
+       height: 260px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   #mycity{
+       width: 160px;
+       overflow: hidden;
+       margin: 8px 0;
+       border-bottom:2px solid red ;
+       outline: none;
+       background: none;
+       color: #fff;
+       margin-right: 5px;
+       text-transform: uppercase;
+   }
+   input{
+       border: none;
+   }
+   .btn{
+       background:red;
+       color: #fff;
+       border: none;
+       border-radius: 8px;
+       font-size: 20px;
+       padding: 3px;
+   }
+   .header{
+       background-image: url("imgs/sunset.jpg");
+       background-position: center;
+       background-size: cover;
+       overflow: hidden;
+       height: 100vh;
+       width: 100%;
+   }
+   .heding{
+    position: relative;
+    top: 10%;
+   }
